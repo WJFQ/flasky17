@@ -1,0 +1,12 @@
+亲爱的 {{ user.username }},
+
+为了确认你的新邮箱地址 请点击下面的链接:
+
+{{ url_for('auth.change_email', token=token, _external=True) }}
+
+最后,
+
+狂战斧
+
+提醒你：你的这封邮件并没有收到我们的监测
+

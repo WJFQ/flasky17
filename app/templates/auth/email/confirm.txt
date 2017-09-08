@@ -1,0 +1,13 @@
+亲爱的 {{ user.username }},
+
+欢迎来到狂战斧!
+
+为了确认你的账号 请点击下面的链接
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+最后,
+
+狂战斧团队
+
+提醒你：你的这封邮件并没有收到我们的监测.
